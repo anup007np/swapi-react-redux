@@ -1,3 +1,7 @@
+body, html {
+  font-size: 12px;
+}
+
 .App {
   text-align: center;
 }
@@ -7,19 +11,30 @@
   height: 40vmin;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
+}
+
+.center { 
+  text-align: center;
+  margin:  30px auto;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.card {
+  min-height: 380px;
+}
+
+.headerBox {
+  padding: 2%;
+  margin-bottom: 10px;
+}
+
+.highlight {
+  background-color: #f8f9fa;
 }
 
 @keyframes App-logo-spin {
